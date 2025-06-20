@@ -1,0 +1,13 @@
+
+- install python version 3.10
+- create a new envirnment: py -3.10 -m venv rl_env
+- activate envirenmetn: rl_env\Scripts\activate
+- pip install gymnasium[atari,accept-rom-license] ale-py autorom matplotlib 
+- python -m autorom --accept-license
+- pip install ipykernel
+- python -m ipykernel install --user --name=rl_env --display-name "Python 3.10 (RL Project)"
+
+- restart visual studio code
+- select the new environment as the kernel
+
+pip install "gym[atari,accept-rom-license]==0.25.2" ale-py==0.7.5
