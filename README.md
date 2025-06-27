@@ -7,7 +7,7 @@ This project showcases the use of two popular reinforcement learning algorithms 
 - `DQN_LunarLanderContinuous-v3.ipynb` — Jupyter notebook implementing and training a DQN agent on a continuous environment (note: DQN is natively designed for discrete action spaces, so this version includes discretization logic).
 - `PPO_LunarLanderContinuous-v3.ipynb` — Jupyter notebook implementing and training a PPO agent, which naturally supports continuous action spaces.
 
-## 🚀 Environment
+## Environment
 
 - **Environment**: `LunarLanderContinuous-v3`
 - **Library**: [Gymnasium](https://gymnasium.farama.org/)
@@ -15,7 +15,7 @@ This project showcases the use of two popular reinforcement learning algorithms 
   - **DQN** (with discretization for continuous actions)
   - **PPO** (from [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3))
 
-## 📦 Requirements
+## Requirements
 
 Install dependencies via:
 
@@ -31,14 +31,14 @@ This project explores reinforcement learning techniques applied to the classic c
 - `Blackjack_SARSA.ipynb` — Jupyter notebook implementing and training a SARSA agent on the discrete `Blackjack-v1` environment.
 - `Blackjack_MonteCarlo.ipynb` — Jupyter notebook implementing and training a agent with Monte Carlo on the discrete `Blackjack-v1` environment.
 
-## 🚀 Environment
+## Environment
 
 - **Environment**: `Blackjack-v1`
 - **Library**: [Gymnasium](https://gymnasium.farama.org/)
 - **RL Algorithm**:
   - **SARSA** (State-Action-Reward-State-Action)
 
-## 📦 Requirements
+## Requirements
 
 Install dependencies via:
 
